@@ -21,8 +21,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Install npm
         run: npm run dev
-      - name: Vite Build
-        run: npx vite build
       - name: Install dependencies
         run: npm ci
       - name: Test code
