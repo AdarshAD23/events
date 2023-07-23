@@ -8,8 +8,6 @@ on:
       - main
       - release/*
       - prod
-    tags:
-      - v*
   workflow_dispatch:
     branches:
       - main
